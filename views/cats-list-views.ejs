@@ -1,0 +1,13 @@
+<h2> Cats List </h2>
+
+<ul>
+  <% cats.forEach((oneCat) => { %>
+    <li>
+      <h3> <% = oneCat.name %> </h3>
+
+      <p> Color: <%= oneCat.color %> </p>
+      <p> Age: <%= oneCat.age %> </p>
+      <p> Toys: <%= oneCat.toys %> </p>
+    </li>
+    <% }) %>
+  </ul>
